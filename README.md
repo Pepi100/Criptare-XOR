@@ -12,4 +12,5 @@
 
 ## DO-TO-LIST ❕
 
-- [] De facut proiectul
+- [ ] De facut proiectul
+- [ ] De completat fisierul input.txt cu un input rezonabil
