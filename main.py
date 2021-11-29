@@ -1,1 +1,1 @@
-print("sunt ultimul ghei")
+print("Start proiect")
