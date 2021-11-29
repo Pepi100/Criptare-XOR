@@ -1,1 +1,1 @@
-print("Salut!")
+print("sunt cam ghei")
