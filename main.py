@@ -1,1 +1,1 @@
-print("sunt cam ghei")
+print("sunt ultimul ghei")
