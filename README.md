@@ -14,3 +14,4 @@
 
 - [ ] De facut proiectul
 - [x] De completat fisierul input.txt cu un input rezonabil
+- [x] Citire argumente  din command line
