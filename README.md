@@ -20,3 +20,6 @@ primului [proiect de la ASC](https://cs.unibuc.ro/~crusu/asc/Arhitectura%20Siste
 ## Mediul de lucru:
 _Python 3.10.0_
 
+ **Cerinta proiectului:**
+
+ Scrieți scripturi python encrypt.py/decrypt.py care iau ca parametru în linia de comandă o cheie și un fișier și realizează criptarea/decriptarea XOR folosind cheia dată. Programul va folosi cheia pentru a cripta conținutul fișierului.
