@@ -9,7 +9,7 @@ cheie = sys.argv[1]
 input_file = sys.argv[2]
 output_file = sys.argv[3]
 
-
+print(cheie)
 
 #Xorare
 
