@@ -1,6 +1,7 @@
 # Criptare-XOR
 
-:point_right: Acesta este repo-ul primului [proiect de la ASC](https://cs.unibuc.ro/~crusu/asc/Arhitectura%20Sistemelor%20de%20Calcul%20(ASC)%20-%20Proiect%200x00.pdf)
+:point_right: Acesta este repo-ul
+primului [proiect de la ASC](https://cs.unibuc.ro/~crusu/asc/Arhitectura%20Sistemelor%20de%20Calcul%20(ASC)%20-%20Proiect%200x00.pdf)
 
 ## Membri:
 
@@ -14,4 +15,6 @@
 
 - [X] De facut proiectul
 - [x] De completat fisierul input.txt cu un input rezonabil
-- [x] Citire argumente  din command line
+- [x] Citire argumente din command line
+## Mediul de lucru:
+
