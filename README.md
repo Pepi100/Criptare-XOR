@@ -3,13 +3,13 @@
 :point_right: Acesta este repo-ul
 primului [proiect de la ASC](https://cs.unibuc.ro/~crusu/asc/Arhitectura%20Sistemelor%20de%20Calcul%20(ASC)%20-%20Proiect%200x00.pdf)
 
-##Numele Echipei:
+## Numele Echipei:
 
->Regiștrii
+> Regiștrii
 
 
 
-![LCO Mascot](https://media.istockphoto.com/vectors/cartoon-of-man-working-and-typing-on-laptop-computer-vector-id1143810000)
+! [LCO Mascot](https://media.istockphoto.com/vectors/cartoon-of-man-working-and-typing-on-laptop-computer-vector-id1143810000)
 
 
 ## Membri:
