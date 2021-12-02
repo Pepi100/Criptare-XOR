@@ -9,9 +9,6 @@ cheie = sys.argv[1]
 input_file = sys.argv[2]
 output_file = sys.argv[3]
 
-+
-
-
 
 #text = list(open("input.txt").read())
 #iesire = open("output", 'w')
