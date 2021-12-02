@@ -5,6 +5,7 @@ primului [proiect de la ASC](https://cs.unibuc.ro/~crusu/asc/Arhitectura%20Siste
 
 ## Membri:
 
+
 :man: Nedelcu Radu-Ioan
 
 :woman: Ciovlov Maria Simona
@@ -17,4 +18,5 @@ primului [proiect de la ASC](https://cs.unibuc.ro/~crusu/asc/Arhitectura%20Siste
 - [x] De completat fisierul input.txt cu un input rezonabil
 - [x] Citire argumente din command line
 ## Mediul de lucru:
+_Python 3.10.0_
 
