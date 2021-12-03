@@ -22,6 +22,8 @@ input_file = open(sys.argv[2], "rb")
 output_file = open(sys.argv[3], "wb")
 
 
+
+print([char ^ cParola for char, cParola in zip( input_file.read(), cycle(cheie) )])
 output_file.write( bytearray( [char ^ cParola for char, cParola in zip( input_file.read(), cycle(cheie) )] ))
 #Xorare
 
