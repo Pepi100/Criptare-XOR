@@ -5,7 +5,7 @@ primului [proiect de la ASC](https://cs.unibuc.ro/~crusu/asc/Arhitectura%20Siste
 
 ## Numele Echipei:
 
-> Regiștrii
+> Regiștri
 
 
 
