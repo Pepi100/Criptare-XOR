@@ -5,7 +5,6 @@
 
 
 ## Echipa Registri :goat:
-! [LCO Mascot](https://media.istockphoto.com/vectors/cartoon-of-man-working-and-typing-on-laptop-computer-vector-id1143810000)
 
 ### Membri:
 
