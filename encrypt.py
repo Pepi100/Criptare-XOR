@@ -23,15 +23,4 @@ output_file = open(sys.argv[3], "wb")
 
 
 
-print([char ^ cParola for char, cParola in zip( input_file.read(), cycle(cheie) )])
 output_file.write( bytearray( [char ^ cParola for char, cParola in zip( input_file.read(), cycle(cheie) )] ))
-#Xorare
-
-
-
-#text = list(open("input.txt").read())
-#iesire = open("output", 'w')
-#parola = input()
-#for x in range(len(text)):
-#    text[x] = chr(ord(text[x]) ^ ord(parola[x % len(parola)]))
-#print("".join(text), file=iesire)
