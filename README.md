@@ -33,7 +33,7 @@ python encrypt.py <cheie> <input_file> <output_file>
 ### Decrypt
 
 ```python
-python encrypt.py <input_file> <cheie> <output_file>
+python decrypt.py <input_file> <cheie> <output_file>
 ```
 
 In cazul lipsei unuia dintre parametri, programul returneaza o eroare explicita si se opreste.
