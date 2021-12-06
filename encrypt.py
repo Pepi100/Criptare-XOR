@@ -17,4 +17,5 @@ cheie = (sys.argv[1]).encode('ascii')
 input_file = open(sys.argv[2], "rb")
 output_file = open(sys.argv[3], "wb")
 
+
 output_file.write(bytearray([char ^ cParola for char, cParola in zip(input_file.read(), cycle(cheie))]))
