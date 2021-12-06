@@ -3,6 +3,7 @@
 Stim ca:
 
 x ⊕ x = 0
+
 output = input ⊕ parola
 
 Astfel:
