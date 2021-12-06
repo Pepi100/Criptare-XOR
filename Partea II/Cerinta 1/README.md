@@ -18,7 +18,7 @@ Pentru a afla parola echipei adverse trebuie doar sa xoram fisierele input.txt s
    caractere_text_criptat = [int(text_criptat[8*i:8*i+8], 2) for i in range(30)]
 ```
 
-Cunoastem faptul ca parola are maximum 15 caractere, deci este necesar sa xoram doar primele 30 pentru a identifica secventa care se repeta si a gasi parola
+Cunoastem faptul ca parola are maximum 15 caractere, deci este necesar sa xoram doar primele 30 pentru a identifica secventa care se repeta si a gasi parola:
 
 ```python
    print("".join([chr(ord(text_initial[x]) ^ caractere_text_criptat[x]) for x in range(30)]))
