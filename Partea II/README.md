@@ -5,6 +5,7 @@
 ## :anger: Echipa Registri vs Team Assembly :anger:
 
 - Repo-ul echipei adverse: https://github.com/LiciuStefan/Proiect1ASC
+- Parola echipei adverse: A25obj88Ef21 
 
 :point_right: In aceasta parte va trebui sa aflam parola echipei adverse in 2 moduri diferite:
 
