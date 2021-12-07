@@ -15,7 +15,6 @@ min_hamming = 1000
 for posibila_lungime in range(10,16):
     suma_hamming = 0
     n = len(lista_bytes) // posibila_lungime
-    n //= 2
     for x in range(n - 2):
         sir1 = "".join(lista_bytes[x * posibila_lungime: x * posibila_lungime + posibila_lungime])
         for y in range(x + 1, n - 1):
@@ -38,32 +37,33 @@ Se afiseaza lungimea cea mai probabila, in cazul nostru 12.
 
 Construim 3 structuri ajutatoare:
 
-- **dictionar\[x]** care contine toate caracterele care sunt xorate cu elementul de pe pozitia x din parola
+- **valori_pozitie** care contine toate caracterele care sunt xorate cu elementul de pe pozitia x din parola
 
 ```python
+valori_pozitie = []
 for x in range(lungime_cheie):
-    dict[x] = []
+    valori_pozitie += [set()]
     for y in range(x,len(lista_bytes),lungime_cheie):
-        dict[x] += [chr(int(lista_bytes[y],2))]
+        valori_pozitie[-1].add(chr(int(lista_bytes[y],2)))
 
 ```
-- **l** care contine toate caracterele care s-ar putea gasi in parola
+- **caractere_parola** care contine toate caracterele care s-ar putea gasi in parola
 
 ```python
-l = [chr(x) for x in range(ord('a'),ord('z') + 1)]
-l += [chr(x) for x in range(ord('A'),ord('Z') + 1)]
-l += [chr(x) for x in range(ord('0'), ord('0') + 10)]
+caractere_parola = [chr(x) for x in range(ord('a'),ord('z') + 1)]
+caractere_parola += [chr(x) for x in range(ord('A'),ord('Z') + 1)]
+caractere_parola += [chr(x) for x in range(ord('0'), ord('0') + 10)]
 
 ```
 
 - **rezultat** care contine toate caracterele care se pot regasi in fisierul input.txt
 
 ```python
-rezultat = l + [',', '"', ':', '.', '!', ';', ' ', "'", '\n', '-', '?']
+rezultat = caractere_parola + [',', '"', ':', '.', '!', ';', ' ', "'", '\n', '-', '?', ')', '(', chr(9)]
 
 ```
 
-Pentru fiecare pozitie din parola vom avea o lista de caractere care posibile. Consideram ca un anumit caracter nu poate fi pe pozitia x in parola atunci cand un element din lista **dictionar\[x]** xorat cu acel posibil caracter rezulta un caracter ce nu s-ar putea gasi in input.txt ( nu se afla in lista **rezultat** ).
+Pentru fiecare pozitie din parola vom avea o lista de caractere care posibile. Consideram ca un anumit caracter nu poate fi pe pozitia x in parola atunci cand un element din lista **valori_pozitie\[x]** xorat cu acel posibil caracter rezulta un caracter ce nu s-ar putea gasi in input.txt ( nu se afla in lista **rezultat** ).
 
 ```python
 dict_posibile_caractere = {}
